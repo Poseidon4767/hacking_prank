@@ -1,0 +1,32 @@
+from keyboard import press_and_release, write
+from time import sleep
+import webbrowser
+
+
+press_and_release('win + S')
+sleep(0.5)
+write('cmd')
+sleep(0.5)
+press_and_release('enter')
+sleep(0.8)
+write('echo Accessing Win32...')
+sleep(0.5)
+press_and_release('enter')
+sleep(0.8)
+write('echo Disabling antivirus...')
+sleep(0.5)
+press_and_release('enter')
+sleep(0.8)
+write('ipconfig')
+sleep(0.5)
+press_and_release('enter')
+sleep(0.8)
+webbrowser.open('https://youtu.be/dQw4w9WgXcQ?si=LFuGOYh7sbKLfJMw')
+sleep(0.52)
+press_and_release('win + S')
+sleep(0.5)
+write('cmd')
+sleep(0.4)
+press_and_release('enter')
+sleep(1.5)
+write("Don't worry bruh its just a prank. You didn't get hacked XD")
